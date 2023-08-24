@@ -3,15 +3,9 @@ import Main from './components/Main';
 import Basket from './components/Basket';
 import data from './data';
 import { useState } from 'react';
-
 function App() {
-  //get product info from data
   const { products } = data;
-
-  //set initial state
   const [cartItems, setCartItems] = useState([]);
-  
-  //event listeners
   const onAdd = (product) => {
     const exist = cartItems.find((x) => x.id === product.id);
     if (exist) {

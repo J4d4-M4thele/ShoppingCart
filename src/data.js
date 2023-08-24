@@ -1,24 +1,23 @@
 const data = {
-    products: [
-        {
-            id: '1',
-            name: 'Sunglasses',
-            price: 75,
-            image:'https://images-na.ssl-images-amazon.com/images/I/71GE6XJxYIL.jpg',
-        },
-        {
-            id: '1',
-            name: 'Y2k Top',
-            price: 100,
-            image:'https://i.etsystatic.com/29141266/r/il/a3a22c/3142284035/il_fullxfull.3142284035_jmfh.jpg',
-        },
-        {
-            id: '1',
-            name: 'Shoulderbag',
-            price: 250,
-            image:'https://i.pinimg.com/736x/23/16/23/231623aad564974d0b6dbf162da8c381.jpg',
-        }
-    ]
+  products: [
+    {
+      id: '1',
+      name: 'MacBook',
+      price: 1400,
+      image: 'https://picsum.photos/id/180/2400/1600',
+    },
+    {
+      id: '2',
+      name: 'Old Car',
+      price: 2400,
+      image: 'https://picsum.photos/id/111/4400/2656',
+    },
+    {
+      id: '3',
+      name: 'W Shoes',
+      price: 1000,
+      image: 'https://picsum.photos/id/21/3008/2008',
+    },
+  ],
 };
-
 export default data;
